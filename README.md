@@ -32,7 +32,7 @@ Employee List (Google Sheet)
         ↓
 n8n Campaign Workflow
         ↓
-Phishing Email Sent (SMTP / Gmail API)
+Phishing Email Sent (Gmail API)
         ↓
 User Clicks Link
         ↓
@@ -68,6 +68,10 @@ Tracking Sheet / Analytics
 - Appends records to response tracking sheet
 - Returns success response to user
 
+
+<img width="1902" height="1029" alt="image" src="https://github.com/user-attachments/assets/49daaee0-2353-4ec2-871e-d1e9888e417b" />
+
+
 ---
 
 ## 🧾 Data Collected (Controlled & Ethical)
@@ -92,10 +96,10 @@ Tracking Sheet / Analytics
 ## 🧰 Technologies Used
 
 - Automation: n8n
-- Email: SMTP / Gmail API
+- Email: Gmail API
 - Frontend: HTML, CSS, JavaScript
 - Backend: Webhooks
-- Data Storage: Google Sheets / Excel
+- Data Storage: Google Sheets
 - Security Domain: Phishing Simulation & Security Awareness
 
 ---
@@ -107,16 +111,12 @@ PhishSim-Pro/
 ├── SECURITY.md
 ├── workflows/
 │   ├── phishing-email-campaign.json
-│   ├── landing-page-host.json
-│   └── form-capture-tracking.json
-├── landing-page/
-│   ├── index.html
 ├── docs/
 │   ├── architecture.md
 │   └── threat-model.md
 ├── sample-data/
-│   ├── employee_template.xlsx
-│   └── campaign_tracking_template.xlsx
+│   ├── employee_template
+│   └── campaign_tracking_template
 └── LICENSE
 
 ---
